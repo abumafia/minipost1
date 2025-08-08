@@ -48,7 +48,7 @@
             if (mediaFile) formData.append('media', mediaFile);
             
             try {
-                const response = await fetch('/api/posts', {
+                const response = await fetch('https://minipost1.onrender.com/api/posts', {
                     method: 'POST',
                     body: formData
                 });
